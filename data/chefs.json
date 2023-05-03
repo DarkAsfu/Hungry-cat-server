@@ -1,0 +1,534 @@
+[
+    {
+        "id": 1,
+        "chefPicture": "https://example.com/chefs/maria-rodriguez.jpg",
+        "chefName": "Maria Rodriguez",
+        "chefBio": "Maria is a classically trained chef with a passion for Mediterranean cuisine. She loves to experiment with new ingredients and techniques to create unique dishes that are as beautiful as they are delicious.",
+        "yearsOfExperience": 10,
+        "numberOfRecipes": 150,
+        "recipes": [
+            {
+                "recipeName": "Grilled octopus with fennel and orange",
+                "ingredients": [
+                    "1 octopus (about 2 lbs), cleaned and trimmed",
+                    "2 fennel bulbs, thinly sliced",
+                    "2 oranges, peeled and segmented",
+                    "1/4 cup extra-virgin olive oil",
+                    "2 tbsp red wine vinegar",
+                    "2 cloves garlic, minced",
+                    "Salt and pepper to taste"
+                ],
+                "rating": 4.8,
+                "likes": 1200
+            },
+            {
+                "recipeName": "Lamb tagine with preserved lemon and olives",
+                "ingredients": [
+                    "2 lbs lamb shoulder, cut into 2-inch pieces",
+                    "2 onions, chopped",
+                    "2 cloves garlic, minced",
+                    "1 tbsp ground cumin",
+                    "1 tbsp ground coriander",
+                    "1 tbsp paprika",
+                    "1 tsp ground cinnamon",
+                    "1/2 cup chopped preserved lemon",
+                    "1/2 cup pitted green olives",
+                    "2 cups chicken stock",
+                    "2 tbsp olive oil",
+                    "Salt and pepper to taste"
+                ],
+                "rating": 4.9,
+                "likes": 1500
+            },
+            {
+                "recipeName": "Shrimp and chorizo paella",
+                "ingredients": [
+                    "2 cups short-grain rice",
+                    "4 cups chicken broth",
+                    "1 onion, chopped",
+                    "1 red bell pepper, chopped",
+                    "1/2 lb chorizo, sliced",
+                    "1/2 lb shrimp, peeled and deveined",
+                    "2 cloves garlic, minced",
+                    "1 tsp smoked paprika",
+                    "1/2 tsp saffron threads",
+                    "1/4 cup chopped parsley",
+                    "1/4 cup chopped cilantro",
+                    "Salt and pepper to taste"
+                ],
+                "rating": 4.7,
+                "likes": 1300
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "chefPicture": "https://example.com/chefs/alex-garcia.jpg",
+        "chefName": "Alex Garcia",
+        "chefBio": "Alex is a Cuban-American chef known for his bold and flavorful dishes that fuse Latin and American cuisines. He is a James Beard Award nominee and has appeared on numerous TV shows.",
+        "yearsOfExperience": 15,
+        "numberOfRecipes": 200,
+        "recipes": [
+            {
+                "recipeName": "Cuban-style roast pork",
+                "ingredients": [
+                    "5 lbs pork shoulder",
+                    "1/2 cup orange juice",
+                    "1/2 cup lime juice",
+                    "1/4 cup olive oil",
+                    "6 cloves garlic, minced",
+                    "1 tbsp dried oregano",
+                    "1 tbsp ground cumin",
+                    "1 tbsp salt",
+                    "1 tsp black pepper"
+                ],
+                "rating": 4.6,
+                "likes": 1100
+            },
+            {
+                "recipeName": "Chipotle chicken tacos",
+                "ingredients": [
+                    "1 lb boneless, skinless chicken breasts",
+                    "1 can chipotle peppers in adobo sauce",
+                    "1/4 cup lime juice",
+                    "2 tbsp olive oil",
+                    "2 cloves garlic, minced",
+                    "1 tsp ground cumin",
+                    "1 tsp smoked paprika",
+                    "1/2 tsp salt",
+                    "8 corn tortillas",
+                    "1/2 cup chopped cilantro",
+                    "1/2 cup crumbled queso fresco",
+                    "Lime wedges for serving"
+                ],
+                "rating": 4.8,
+                "likes": 1200
+            },
+            {
+                "recipeName": "Churrasco steak with chimichurri sauce",
+                "ingredients": [
+                    "2 lbs flank steak",
+                    "1/4 cup olive oil",
+                    "4 cloves garlic, minced",
+                    "1/4 cup chopped parsley",
+                    "1/4 cup chopped cilantro",
+                    "2 tbsp red wine vinegar",
+                    "1 tbsp dried oregano",
+                    "1 tsp ground cumin",
+                    "1 tsp salt",
+                    "1/2 tsp black pepper",
+                    "Lime wedges for serving"
+                ],
+                "rating": 4.9,
+                "likes": 1500
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "chefPicture": "https://example.com/chefs/kevin-lee.jpg",
+        "chefName": "Kevin Lee",
+        "chefBio": "Kevin is a Korean-American chef who specializes in modern Korean cuisine. He has worked at some of the top restaurants in the world and has been featured in numerous publications.",
+        "yearsOfExperience": 12,
+        "numberOfRecipes": 175,
+        "recipes": [
+            {
+                "recipeName": "Bibimbap with beef and vegetables",
+                "ingredients": [
+                    "1 lb flank steak, thinly sliced",
+                    "2 cups cooked rice",
+                    "4 cups mixed vegetables (such as carrots, spinach, bean sprouts, and zucchini)",
+                    "4 eggs",
+                    "4 tbsp gochujang (Korean red pepper paste)",
+                    "2 tbsp sesame oil",
+                    "2 tbsp soy sauce",
+                    "2 cloves garlic, minced",
+                    "Salt and pepper to taste"
+                ],
+                "rating": 4.7,
+                "likes": 1300
+            },
+            {
+                "recipeName": "Kimchi fried rice with shrimp",
+                "ingredients": [
+                    "2 cups cooked rice",
+                    "1/2 lb shrimp, peeled and deveined",
+                    "1 cup chopped kimchi",
+                    "1 onion, chopped",
+                    "2 cloves garlic, minced",
+                    "2 tbsp vegetable oil",
+                    "2 tbsp soy sauce",
+                    "1 tbsp sesame oil",
+                    "1 tbsp gochujang (Korean red pepper paste)",
+                    "2 green onions, chopped",
+                    "1 tbsp toasted sesame seeds"
+                ],
+                "rating": 4.9,
+                "likes": 1500
+            },
+            {
+                "recipeName": "Korean-style fried chicken",
+                "ingredients": [
+                    "2 lbs chicken wings, split and tips removed",
+                    "1 cup cornstarch",
+                    "1/2 cup flour",
+                    "2 tbsp garlic powder",
+                    "2 tbsp onion powder",
+                    "1 tsp salt",
+                    "1/2 tsp black pepper",
+                    "1 cup buttermilk",
+                    "1/4 cup gochujang (Korean red pepper paste)",
+                    "2 tbsp soy sauce",
+                    "2 tbsp rice vinegar"
+                ],
+                "rating": 4.8,
+                "likes": 1400
+            },
+            {
+                "recipeName": "Bulgogi beef tacos with kimchi slaw",
+                "ingredients": [
+                    "1 lb thinly sliced beef",
+                    "8 corn tortillas",
+                    "1 cup kimchi, chopped",
+                    "1/4 cup chopped cilantro",
+                    "1/4 cup chopped green onions",
+                    "2 tbsp soy sauce",
+                    "1 tbsp honey",
+                    "1 tbsp sesame oil",
+                    "2 cloves garlic, minced",
+                    "1/2 tsp black pepper"
+                ],
+                "rating": 4.7,
+                "likes": 1200
+            },
+            {
+                "recipeName": "Japchae (Korean glass noodle stir-fry)",
+                "ingredients": [
+                    "8 oz sweet potato noodles",
+                    "1/2 lb beef, sliced",
+                    "4 oz spinach",
+                    "1 onion, sliced",
+                    "1 carrot, julienned",
+                    "1 bell pepper, sliced",
+                    "2 cloves garlic, minced",
+                    "2 tbsp soy sauce",
+                    "1 tbsp sugar",
+                    "1 tbsp sesame oil",
+                    "1 tbsp vegetable oil"
+                ],
+                "rating": 4.9,
+                "likes": 1600
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "chefPicture": "https://example.com/chefs/maria-rodriguez.jpg",
+        "chefName": "Maria Rodriguez",
+        "chefBio": "Maria is a Mexican chef who grew up learning traditional Mexican cooking from her grandmother. She is passionate about using fresh, locally-sourced ingredients in her dishes.",
+        "yearsOfExperience": 15,
+        "numberOfRecipes": 200,
+        "recipes": [
+            {
+                "recipeName": "Chicken tinga tacos",
+                "ingredients": [
+                    "1 lb boneless, skinless chicken breasts",
+                    "1 onion, chopped",
+                    "2 cloves garlic, minced",
+                    "1 can chipotle peppers in adobo sauce",
+                    "1/4 cup tomato sauce",
+                    "1 tsp dried oregano",
+                    "1 tsp ground cumin",
+                    "1/2 tsp salt",
+                    "8 corn tortillas",
+                    "1/4 cup crumbled queso fresco",
+                    "Lime wedges for serving"
+                ],
+                "rating": 4.8,
+                "likes": 1400
+            },
+            {
+                "recipeName": "Shrimp ceviche",
+                "ingredients": [
+                    "1 lb raw shrimp, peeled and deveined",
+                    "1/2 red onion, chopped",
+                    "1/2 cup chopped cilantro",
+                    "2 tomatoes, chopped",
+                    "2 jalapeño peppers, seeded and chopped",
+                    "1/4 cup lime juice",
+                    "1/4 cup orange juice",
+                    "Salt and pepper to taste",
+                    "Tortilla chips for serving"
+                ],
+                "rating": 4.9,
+                "likes": 1600
+            },
+            {
+                "recipeName": "Carne asada with guacamole",
+                "ingredients": [
+                    "2 lbs flank steak",
+                    "1 onion, sliced",
+                    "2 cloves garlic, minced",
+                    "1/4 cup lime juice",
+                    "1/4 cup orange juice",
+                    "1 tsp dried oregano",
+                    "1 tsp ground cumin",
+                    "1/2 tsp salt",
+                    "1/4 tsp black pepper",
+                    "1/4 cup chopped cilantro",
+                    "2 ripe avocados, mashed",
+                    "1/2 red",
+                    "pepper, chopped",
+                    "1/4 cup chopped onion",
+                    "1 tbsp lime juice",
+                    "Salt and pepper to taste"
+                ],
+                "rating": 4.7,
+                "likes": 1200
+            },
+            {
+                "recipeName": "Tamales",
+                "ingredients": [
+                    "2 cups masa harina",
+                    "2 cups warm water",
+                    "1/2 cup vegetable shortening",
+                    "1 tsp baking powder",
+                    "1/2 tsp salt",
+                    "1/2 lb cooked pork, shredded",
+                    "1/4 cup tomato sauce",
+                    "1/4 cup chopped cilantro",
+                    "1/2 tsp ground cumin",
+                    "1/2 tsp chili powder",
+                    "Corn husks for wrapping"
+                ],
+                "rating": 4.6,
+                "likes": 1000
+            },
+            {
+                "recipeName": "Enchiladas verdes",
+                "ingredients": [
+                    "1 lb cooked chicken, shredded",
+                    "12 corn tortillas",
+                    "1 onion, chopped",
+                    "2 cloves garlic, minced",
+                    "2 cans green enchilada sauce",
+                    "1 cup shredded Monterey Jack cheese",
+                    "1/4 cup chopped cilantro",
+                    "1 tbsp vegetable oil"
+                ],
+                "rating": 4.5,
+                "likes": 800
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "chefPicture": "https://example.com/chefs/paul-johnson.jpg",
+        "chefName": "Paul Johnson",
+        "chefBio": "Paul is a chef from Louisiana who specializes in Cajun and Creole cuisine. He has been cooking professionally for over 20 years and loves to experiment with bold flavors and spices.",
+        "yearsOfExperience": 20,
+        "numberOfRecipes": 300,
+        "recipes": [
+            {
+                "recipeName": "Jambalaya",
+                "ingredients": [
+                    "1 lb andouille sausage, sliced",
+                    "1 lb chicken thighs, boneless and skinless, cut into pieces",
+                    "1 onion, chopped",
+                    "1 green bell pepper, chopped",
+                    "2 stalks celery, chopped",
+                    "2 cloves garlic, minced",
+                    "1 can diced tomatoes",
+                    "2 cups chicken broth",
+                    "1 cup long-grain white rice",
+                    "1 tsp paprika",
+                    "1 tsp dried oregano",
+                    "1/2 tsp cayenne pepper",
+                    "Salt and pepper to taste"
+                ],
+                "rating": 4.9,
+                "likes": 1800
+            },
+            {
+                "recipeName": "Shrimp and grits",
+                "ingredients": [
+                    "1 lb shrimp, peeled and deveined",
+                    "1 cup stone-ground grits",
+                    "4 cups chicken broth",
+                    "1 cup heavy cream",
+                    "1 onion, chopped",
+                    "1 green bell pepper, chopped",
+                    "2 cloves garlic, minced",
+                    "1/4 cup chopped parsley",
+                    "1 tbsp vegetable oil",
+                    "1 tsp paprika",
+                    "1/2 tsp dried thyme",
+                    "Salt and pepper to taste"
+                ],
+                "rating": 4.7,
+                "likes": 1200
+            },
+            {
+                "recipeName": "Red beans and rice",
+                "ingredients": [
+                    "1 lb dried red beans",
+                    "1 lb andouille sausage, sliced",
+                    "1 onion, chopped",
+                    "1 green bell pepper, chopped",
+                    "2 stalks celery, chopped",
+                    "2 cloves garlic, minced",
+                    "1 ham hock or ham bone",
+                    "6 cups chicken broth",
+                    "2 cups cooked rice",
+                    "1 tsp paprika",
+                    "1 tsp dried thyme",
+                    "1/2 tsp cayenne pepper",
+                    "Salt and pepper to taste"
+                ],
+                "rating": 4.5,
+                "likes": 1000
+            },
+            {
+                "recipeName": "Cajun fried chicken",
+                "ingredients": [
+                    "4 bone-in chicken thighs",
+                    "1 cup all-purpose flour",
+                    "1 tbsp paprika",
+                    "1 tbsp garlic powder",
+                    "1 tbsp onion powder",
+                    "1 tsp cayenne pepper",
+                    "1/2 tsp salt",
+                    "1/2 tsp black pepper",
+                    "1 cup buttermilk",
+                    "Vegetable oil for frying"
+                ],
+                "rating": 4.4,
+                "likes": 900
+            },
+            {
+                "recipeName": "Crawfish etouffee",
+                "ingredients": [
+                    "1 lb crawfish tails",
+                    "1 onion, chopped",
+                    "1 green bell pepper, chopped",
+                    "2 stalks celery, chopped",
+                    "2 cloves garlic, minced",
+                    "1/4 cup butter",
+                    "1/4 cup all-purpose flour",
+                    "2 cups chicken broth",
+                    "1/4 cup chopped parsley",
+                    "1 tsp paprika",
+                    "1/2 tsp dried thyme",
+                    "1/2 tsp cayenne pepper",
+                    "Salt and pepper to taste"
+                ],
+                "rating": 4.6,
+                "likes": 1100
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "chefPicture": "https://example.com/chef4.png",
+        "chefName": "Isabella Smith",
+        "chefBio": "Chef Isabella is a classically trained chef with over 10 years of experience. She specializes in creating elegant, modern dishes with fresh, seasonal ingredients.",
+        "yearsOfExperience": 10,
+        "numberOfRecipes": 8,
+        "recipes": [
+            {
+                "recipeName": "Grilled lamb chops",
+                "ingredients": [
+                    "8 lamb chops",
+                    "3 tbsp olive oil",
+                    "1 tbsp chopped fresh rosemary",
+                    "1 tbsp chopped fresh thyme",
+                    "1 tbsp minced garlic",
+                    "Salt and pepper to taste"
+                ],
+                "rating": 4.8,
+                "likes": 1300
+            },
+            {
+                "recipeName": "Pan-seared salmon",
+                "ingredients": [
+                    "4 salmon fillets",
+                    "1 tbsp olive oil",
+                    "1 tbsp butter",
+                    "2 cloves garlic, minced",
+                    "1 tbsp chopped fresh parsley",
+                    "1/2 lemon, juiced",
+                    "Salt and pepper to taste"
+                ],
+                "rating": 4.7,
+                "likes": 1200
+            },
+            {
+                "recipeName": "Grilled vegetable skewers",
+                "ingredients": [
+                    "1 zucchini, sliced",
+                    "1 yellow squash, sliced",
+                    "1 red onion, sliced",
+                    "1 red bell pepper, sliced",
+                    "1 green bell pepper, sliced",
+                    "2 tbsp olive oil",
+                    "1 tsp dried oregano",
+                    "1/2 tsp garlic powder",
+                    "Salt and pepper to taste"
+                ],
+                "rating": 4.6,
+                "likes": 1100
+            },
+            {
+                "recipeName": "Roasted chicken with herbs",
+                "ingredients": [
+                    "1 whole chicken",
+                    "1/4 cup butter, softened",
+                    "2 tbsp chopped fresh rosemary",
+                    "2 tbsp chopped fresh thyme",
+                    "2 cloves garlic, minced",
+                    "1 lemon, sliced",
+                    "Salt and pepper to taste"
+                ],
+                "rating": 4.5,
+                "likes": 1000
+            },
+            {
+                "recipeName": "Roasted beet salad",
+                "ingredients": [
+                    "3 beets, roasted and sliced",
+                    "4 cups mixed greens",
+                    "1/2 cup crumbled feta cheese",
+                    "1/4 cup chopped walnuts",
+                    "2 tbsp olive oil",
+                    "1 tbsp balsamic vinegar",
+                    "Salt and pepper to taste"
+                ],
+                "rating": 4.4,
+                "likes": 900
+            },
+            {
+                "recipeName": "Raspberry sorbet",
+                "ingredients": [
+                    "3 cups fresh raspberries",
+                    "1 cup water",
+                    "1 cup sugar",
+                    "1/4 cup lemon juice"
+                ],
+                "rating": 4.3,
+                "likes": 800
+            },
+            {
+                "recipeName": "Chocolate mousse",
+                "ingredients": [
+                    "4 oz semisweet chocolate, chopped",
+                    "2 tbsp unsalted butter",
+                    "2 egg yolks",
+                    "2 tbsp sugar",
+                    "1/2 cup heavy cream, whipped"
+                ],
+                "rating": 4.2,
+                "likes": 700
+            }
+        ]
+    }
+]
