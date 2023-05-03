@@ -11,6 +11,12 @@ app.get('/', (req, res) =>{
 app.get('/chefs', (req, res) =>{
     res.send(chefs);
 })
+app.get('/recipe/:id', (req, res) =>{
+    const id = req.params.id;
+    console.log(id);
+    const selectedRecipe = chefs.find(n => n.id === id);
+    res.send(selectedRecipe);
+})
 app.listen(port, () =>{
     console.log(`The hungry cat api running on port: ${port}`)
 })
