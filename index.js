@@ -9,7 +9,7 @@ app.get('/', (req, res) =>{
     res.send('The hungry cat coming !!!....')
 })
 app.get('/chefs', (req, res) =>{
-    res.send(chefs)
+    res.send(chefs);
 })
 app.listen(port, () =>{
     console.log(`The hungry cat api running on port: ${port}`)
